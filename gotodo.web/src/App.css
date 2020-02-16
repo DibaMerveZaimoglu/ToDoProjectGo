@@ -1,0 +1,32 @@
+.container {
+    margin-top: 50px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.todo-item {
+    border-color: #dfdfdf;
+}
+
+.todo-item:hover {
+    color: #6c757d;
+    background-color: #f1f1f1;
+    border-color: #dfdfdf;
+}
+
+.delete-button {
+    font-size: 15px !important;
+    flex: 0 !important;
+}
+
+.delete-button:hover {
+    background-color: #ffffff;
+    color: #b60000;
+    border-color: #b60000;
+}
+
+.todo-item.passive {
+    text-decoration: line-through;
+}
